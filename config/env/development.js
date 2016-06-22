@@ -3,7 +3,7 @@
 module.exports = {
 
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/forum-app-dev',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/meanjs-sample',
     options: {
       user: '',
       pass: ''

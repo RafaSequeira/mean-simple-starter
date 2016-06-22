@@ -1,0 +1,4 @@
+#ignoring node modules and bower dependencies
+# ==========
+node_modules/
+public/lib/

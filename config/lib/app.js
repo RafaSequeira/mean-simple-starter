@@ -20,7 +20,7 @@ module.exports.start = function(callback){
   _this.init(function(app, db, config){
     app.listen(config.port, config.host, function(){
       var server = (process.env.NODE_ENV === 'secure' ? 'https://' : 'http://') + config.host + ':' + config.port;
-      console.log('Running app rufian :v ');
+      console.log('Running app :v ');
       if(callback) callback(app, db, config);
     });
   });

@@ -1,3 +1,4 @@
+//put all you assets in this file
 'use stric'
 module.exports = {
   client:{
