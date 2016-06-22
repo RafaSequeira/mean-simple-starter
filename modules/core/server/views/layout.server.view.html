@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meanjs Sample</title>
+    <base href="/">
+    {% for cssFile in cssFiles %} <link rel="stylesheet" href="{{cssFile}}"> {% endfor %}
+  </head>
+  <body>
+    <section class="content">
+        <section class="container">
+        {% block content %}
+        {% endblock %}
+        </section>
+    </section>
+    {% for jsFile in jsFiles %}<script type="text/javascript" src="{{jsFile}}"> </script>  {% endfor %}
+  </body>
+</html>
